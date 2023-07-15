@@ -33,5 +33,5 @@ public interface MyWebDriver extends WebDriver {
 
     File screenshot(String fileName);
 
-
+    void destroy();
 }
